@@ -1,0 +1,124 @@
+	tr {
+		height : 80px ;
+	}
+
+	th#title {
+		font-size : 30pt ;
+		color : tomato ;
+		font-weight: bold ;
+		font-family : D2Coding ;
+		
+	}
+	
+	td.sunday {
+		font-size : 20pt ;
+		font-weight : bold ;
+		width : 100px ;
+		text-align : center ;
+		color : red ;
+	}
+	
+	td.saturday {
+		font-size : 20pt ;
+		font-weight : bold ;
+		width : 100px ;
+		text-align : center ;
+		color : blue ;
+	}
+	
+	td.etcday {
+		font-size : 20pt ;
+		font-weight : bold ;
+		width : 100px ;
+		text-align : center ;
+		color : black ;
+	}
+	
+	td.sun {
+		color : red ;
+		font-weight: bold;
+		text-align: right ;
+		vertical-align: top;
+	}
+	
+	td.sat {
+		color : blue ;
+		font-weight: bold;
+		text-align: right ;
+		vertical-align: top;
+	}
+	
+	td.etc {
+		color : black ;
+		font-weight: bold;
+		text-align: right ;
+		vertical-align: top;
+	}
+	
+	td.beforesun {
+		color : red ;
+		font-weight: bold;
+		text-align: right ;
+		vertical-align: top;
+		font-size : 10pt ;
+		background : lightgray ;
+	}
+	
+	td.before {
+		color : black ;
+		font-weight: bold;
+		text-align: right ;
+		vertical-align: top;
+		font-size : 10pt ;
+		background : lightgray ;
+	}
+	
+	td.holiday {
+		color : red ;
+		font-weight: bold;
+		text-align: right ;
+		vertical-align: top;
+		font-size : 12pt;
+		background : yellow ;
+	}
+	
+.select {
+	width : 100px ;
+	height : 30px ;
+}	
+
+span {
+	font-size : 9pt ;
+}
+	
+/* 하이퍼 링크 스타일 지정하기 */
+/* a {
+	color : black ;
+	text-decoration: underline ;
+	
+} */
+a:link { /*한 번도 방문하지 않은 하이퍼 링크*/
+	color : green ;
+	text-decoration: none;
+}
+a:visited { /*한 번 이상 클릭한 하이퍼 링크*/
+	color : purple ;
+	text-decoration: none;	
+}
+a:hover {/*마우스를 올리고 있을 때*/
+	text-decoration: underline;
+}
+a:active{/*마우스를 누르고 있을 때*/
+	color: skyblue ;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
